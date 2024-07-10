@@ -1,0 +1,14 @@
+/* sidebar.css */
+.sidebar {
+    width: 20%;
+    background-color: #f2f2f2;
+    padding: 20px;
+    /* Thêm các quy tắc CSS khác cho sidebar */
+}
+
+/* Ví dụ: Định dạng cho tiêu đề danh mục sản phẩm */
+.sidebar h3 {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+}

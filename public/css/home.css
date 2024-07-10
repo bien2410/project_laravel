@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container-fluid {
+    max-width: 1200px; /* Đặt giới hạn chiều rộng của container */
+    margin: 0 auto; /* Để căn giữa container */
+    padding: 20px; /* Để tạo khoảng cách xung quanh */
+}
+
+.sidebar {
+    background-color: #ffffff; /* Màu nền sidebar */
+    padding: 20px; /* Để tạo khoảng cách bên trong sidebar */
+}
+
+.sidebar-section {
+    margin-bottom: 20px; /* Để tạo khoảng cách giữa các section trong sidebar */
+}
+
+.content {
+    background-color: #ffffff; /* Màu nền nội dung chính */
+    padding: 20px; /* Để tạo khoảng cách bên trong nội dung chính */
+}
+
+.image-container {
+    background-color: #ffffff; /* Màu nền của vùng chứa ảnh */
+    padding: 20px; /* Để tạo khoảng cách bên trong vùng chứa ảnh */
+    text-align: center; /* Căn giữa ảnh */
+}
+
+.image-container img {
+    max-width: 100%; /* Đảm bảo ảnh co giãn theo vùng chứa */
+    height: auto;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .row > div {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container-fluid {
+        padding: 10px;
+    }
+
+    .content, .sidebar, .image-container {
+        padding: 10px;
+    }
+
+    .sidebar-section {
+        margin-bottom: 10px;
+    }
+}
